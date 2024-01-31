@@ -1,0 +1,21 @@
+package ex01산술연산자;
+
+public class Ex01산술연산자 {
+	
+	public static void main(String[] args) {
+		
+		// 산술연산자
+		// / : 몫
+		// % : 나머지
+		// 정수형 데이터 10을 담는 num1을 선언
+		int num1 = 10;
+		
+		// 실수형 데이터 7f를 담는 num2 선언
+		float num2 = 7f;
+		
+		
+		System.out.println(num1/num2);
+		
+	}
+
+}

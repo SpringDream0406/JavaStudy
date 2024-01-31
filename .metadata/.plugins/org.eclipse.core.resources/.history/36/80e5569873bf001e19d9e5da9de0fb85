@@ -1,0 +1,12 @@
+package ex02변수및자료형;
+
+public class Ex01변수 {
+	
+	
+	// main 자동완성
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

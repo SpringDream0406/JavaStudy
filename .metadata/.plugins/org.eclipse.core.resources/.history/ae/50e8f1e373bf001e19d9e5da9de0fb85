@@ -1,0 +1,16 @@
+package ex02변수및자료형;
+
+public class Ex01변수 {
+	
+	
+	// main 자동완성
+	public static void main(String[] args) {
+		
+		// 변수 선언
+		// 정수 데이터 7이라는 값을 담을 수 있는 num이라는 변수 선언
+		int num = 7;
+		System.out.println(num);
+
+	}
+
+}

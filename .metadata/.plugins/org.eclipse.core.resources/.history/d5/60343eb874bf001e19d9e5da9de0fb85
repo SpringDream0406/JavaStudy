@@ -1,0 +1,26 @@
+package ex02변수및자료형;
+
+public class Ex01변수 {
+	
+	
+	// main 자동완성
+	public static void main(String[] args) {
+		
+		// 변수 선언
+		// 정수 데이터 7이라는 값을 담을 수 있는 num이라는 변수 선언
+		int num = 7;
+		System.out.println(num);
+		
+		// num이라는 공간에 있는 데이터를 3로 변경
+		// 자료형을 정해주는건 단 한번만 해주면 된다!!(변수 생성할 때)
+		num = 3;
+		System.out.println(num);
+		
+		// 상수 선언방법
+		// 정수형 2라는 숫자를 담을 수 있는 상수 num2를 선언
+		int num2 = 2;
+		System.out.println(num2);
+
+	}
+
+}

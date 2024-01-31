@@ -1,0 +1,38 @@
+package switch문;
+
+import java.util.Scanner;
+
+public class Ex03계절계산기 {
+
+	public static void main(String[] args) {
+
+		// 1. 입력도구
+		Scanner sc = new Scanner(System.in);
+		// 2. 월 입력
+		System.out.print("월을 입력하세요 : ");
+		// 3. 입력 받기
+		int month = sc.nextInt();
+		// 4. 계절을 담아줄 변수 생성
+		String season = "잘못입";
+		switch (month) {
+		case 12, 1, 2:
+			season = "겨울";
+			break;
+		case 3, 4, 5:
+			season = "봄";
+			break;
+		case 6, 7, 8:
+			season = "여름";
+			break;
+		case 9, 10, 11:
+			season = "가을";
+			break;
+			
+		default:
+			System.out.println("1~12월 까지만 입력하세요!");
+		}
+		System.out.println(month + "월은 " + season + "입니다!");
+
+	}
+
+}

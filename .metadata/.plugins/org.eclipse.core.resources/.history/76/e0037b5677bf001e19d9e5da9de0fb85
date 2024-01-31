@@ -1,0 +1,15 @@
+package ex02변수및자료형;
+
+public class Ex02자료형 {
+	
+	public static void main(String[] args) {
+		
+		// 기본 자료형
+		// 1) 논리 자료형 : boolean (1byte)
+		// 참이라는 데이터를 저장하는 bool 이라는 변수 선언
+		boolean bool = true;
+		
+		
+	}
+
+}
